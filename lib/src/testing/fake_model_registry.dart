@@ -11,7 +11,7 @@ import '../models/model_registry.dart';
 class FakeModelRegistry implements ModelRegistry {
   /// Creates a fake registry seeded with [descriptors].
   FakeModelRegistry(List<ModelDescriptor> descriptors)
-    : _descriptors = List.of(descriptors);
+      : _descriptors = List.of(descriptors);
 
   final List<ModelDescriptor> _descriptors;
   final Set<String> _acquiredIds = {};

@@ -15,9 +15,9 @@ class FakePluginContext implements PluginContext {
     LumenEventBus? eventBus,
     ModelRegistry? modelRegistry,
     Set<String> grantedConsents = const {},
-  }) : eventBus = eventBus ?? FakeEventBus(),
-       modelRegistry = modelRegistry ?? FakeModelRegistry(const []),
-       _grantedConsents = grantedConsents;
+  })  : eventBus = eventBus ?? FakeEventBus(),
+        modelRegistry = modelRegistry ?? FakeModelRegistry(const []),
+        _grantedConsents = grantedConsents;
 
   @override
   final LumenEventBus eventBus;
