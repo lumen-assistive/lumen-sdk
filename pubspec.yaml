@@ -4,6 +4,7 @@ description: >-
   registry contracts shared by lumen-core, lumen-app and every Lumen
   module.
 version: 0.1.0
+publish_to: none
 repository: https://github.com/lumen-assistive/lumen-sdk
 issue_tracker: https://github.com/lumen-assistive/lumen-sdk/issues
 homepage: https://github.com/lumen-assistive/lumen-sdk
