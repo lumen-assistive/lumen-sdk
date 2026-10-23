@@ -1,0 +1,19 @@
+name: lumen_sdk
+description: >-
+  Plugin SDK for Lumen: the plugin interface, event bus and model
+  registry contracts shared by lumen-core, lumen-app and every Lumen
+  module.
+version: 0.1.0
+repository: https://github.com/lumen-assistive/lumen-sdk
+issue_tracker: https://github.com/lumen-assistive/lumen-sdk/issues
+homepage: https://github.com/lumen-assistive/lumen-sdk
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  meta: ^1.15.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.25.0
