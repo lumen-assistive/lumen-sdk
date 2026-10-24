@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lumen-assistive/.github/main/profile/assets/logo-wordmark.png" alt="Lumen" width="200">
+</p>
+
 # lumen_sdk
 
 The plugin SDK for [Lumen](https://github.com/lumen-assistive), an
