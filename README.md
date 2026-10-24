@@ -1,7 +1,5 @@
 # lumen_sdk
 
-[Italiano](README.it.md) | English
-
 The plugin SDK for [Lumen](https://github.com/lumen-assistive), an
 open source, offline-first assistive app. This package defines the
 contracts every Lumen module depends on:
