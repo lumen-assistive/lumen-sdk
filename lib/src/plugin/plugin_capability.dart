@@ -13,7 +13,7 @@ enum PluginCapability {
   /// `AudioChunkEvent`s.
   microphone,
 
-  /// Access to the device's location, used for example by Protezione's
+  /// Access to the device's location, used for example by Safety's
   /// offline SOS flow.
   location,
 
