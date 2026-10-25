@@ -19,7 +19,7 @@ class PluginManifest {
     required this.capabilities,
   });
 
-  /// Stable, lowercase, hyphenated identifier, for example `vedere`.
+  /// Stable, lowercase, hyphenated identifier, for example `vision`.
   final String id;
 
   /// Display name shown to Italian-speaking users, the app's primary

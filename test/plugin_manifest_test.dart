@@ -5,17 +5,17 @@ void main() {
   group('PluginManifest', () {
     test('exposes every field passed to the constructor', () {
       const manifest = PluginManifest(
-        id: 'vedere',
+        id: 'vision',
         nameIt: 'Vedere',
-        nameEn: 'See',
+        nameEn: 'Vision',
         version: '1.2.0',
         sdkConstraint: '^0.1.0',
         capabilities: [PluginCapability.camera],
       );
 
-      expect(manifest.id, 'vedere');
+      expect(manifest.id, 'vision');
       expect(manifest.nameIt, 'Vedere');
-      expect(manifest.nameEn, 'See');
+      expect(manifest.nameEn, 'Vision');
       expect(manifest.version, '1.2.0');
       expect(manifest.sdkConstraint, '^0.1.0');
       expect(manifest.capabilities, [PluginCapability.camera]);
@@ -23,7 +23,7 @@ void main() {
 
     test('allows an empty capability list', () {
       const manifest = PluginManifest(
-        id: 'famiglia',
+        id: 'family',
         nameIt: 'Famiglia',
         nameEn: 'Family',
         version: '0.1.0',
